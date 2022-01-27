@@ -30,28 +30,55 @@ Tool.prototype = Object.create(ARModel.prototype);
 function initiateModels() {
   var buildersArray = [
     {
-      name: 'papa-smurf',
-      dialogue: 'شرشبيل بايق السنافر و لازم نرجعهم! لازم نجمع ٥ اشياء مهمة عشان نقدر ننقذهم بس ماقدر اقولكم شنو الاشياء عشان محد يسمعنا 👀 انا بلمح و انتوا لازم تفهمونها 😁بس حطو فبالكم ان ما نقدر نجمع غرض قبل الثاني،، الحقني لاب 227\n',
+      name: 'male',
+      dialogue: 'يلا نلعب !',
+      successDialogue: 'Clue 0: يا وردتي يا ندية،، روحي لخلي....'
     },
+    {
+      name: 'female',
+      dialogue: 'يلا نلعب !',
+      successDialogue: 'Clue 0: يا وردتي يا ندية،، روحي لخلي....'
+    },
+    {
+      name: 'doctor',
+      dialogue: 'Clue 1: يا وردتي يا ندية،، روحي لخلي....',
+      successDialogue: 'Clue 120: يا وردتي يا ندية،، روحي لخلي....'
+    },    
+    {
+      name: 'eagle',
+      dialogue: 'Clue 2: يا وردتي يا ندية،، روحي لخلي....',
+    },    
     {
       name: 'giftBox',
-      dialogue: 'Clue 1: يا وردتي يا ندية،، روحي لخلي....',
+      dialogue: 'Clue 3: يا وردتي يا ندية،، روحي لخلي....',
+    },    
+    {
+      name: 'horse',
+      dialogue: 'Clue 4: يا وردتي يا ندية،، روحي لخلي....',
+    },    
+    {
+      name: 'kinfe',
+      dialogue: 'Clue 5: يا وردتي يا ندية،، روحي لخلي....',
+    },    
+    {
+      name: 'pharaoh',
+      dialogue: 'Clue 6: يا وردتي يا ندية،، روحي لخلي....',
+    },    
+    {
+      name: 'praying',
+      dialogue: 'Clue 7: يا وردتي يا ندية،، روحي لخلي....',
+    },    
+    {
+      name: 'sleep',
+      dialogue: 'Clue 8: يا وردتي يا ندية،، روحي لخلي....',
+    },    
+    {
+      name: 'spatula',
+      dialogue: 'Clue 9: يا وردتي يا ندية،، روحي لخلي....',
     },
     {
-      name: 'cow',
-      dialogue: 'Clue 2: يا شين السرج على...',
-    },
-    {
-      name: 'palmTree',
-      dialogue: 'Clue 3: الطول طول ؟',
-    },
-    {
-      name: 'goat',
-      dialogue: 'Clue 4: و العقل عقل؟',
-    },
-    {
-      name: 'knife',
-      dialogue: 'Clue 5: اذا طاح الجمل كثرت سجاجينة',
+      name: 'sun',
+      dialogue: 'Clue 10: اذا طاح الجمل كثرت سجاجينة',
     },
   ];
 
