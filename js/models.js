@@ -58,12 +58,6 @@ function initiateModels() {
       dialogue:
         "لا تجرح نفسك 🔪🔪! <br/>مفتاح : N <br/> برافووو !! فزتوا باللعبه",
     },
-
-    {
-      name: "female",
-      dialogue:
-        "❌❌ لغم",
-    },
     {
       name: "doctor",
       dialogue:
